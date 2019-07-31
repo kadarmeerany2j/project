@@ -14,7 +14,7 @@
 .about_contain1 {
     width: 88%;
 }
-.containerbox {
+.container__mainbox {
     width: 27.6%;
     height: 260px;
 }
@@ -46,14 +46,14 @@ margin: 10px
 .carrerbanner {
     padding-top: 6%;
 }
-.containerbox {
+.container__mainbox {
     width: 26.4%;
     height: 280px;
 }
-.containerbox_desc {
+.container__desc {
     height: 75px;
 }
-.containerbox_skills {
+.container__skills {
     height: 65px;
 }
 .contactbanner {
@@ -124,21 +124,21 @@ margin: 10px
 .carrerbanner {
     padding-top: 7%;
 }
-.containerbox_header {
+.container__header {
     line-height: 1.5rem;
     font-size: 17px;
 }
-.containerbox {
+.container__mainbox {
     width: 24.4%;
     height: 350px;
 }
-.containerbox_desc {
+.container__desc {
     height: 110px;
 }
-.containerbox_skills {
+.container__skills {
     height: 100px;
 }
-.containerbox_applybutton {
+.container__applybutton {
     padding: 8px 10px;
 }
 
@@ -359,7 +359,7 @@ margin: 10px
 .carrerbanner {
     padding-top: 13%;
 }
-.containerbox {
+.container__mainbox {
     width: 85%;
     height: 270px;
     margin: 0 auto;
@@ -368,10 +368,10 @@ margin: 10px
     display: block;
     margin-bottom: 5%;
 }
-.containerbox_desc {
+.container__desc {
     height: 60px;
 }
-.containerbox_skills {
+.container__skills {
     height: 60px;
 }
 /*contact us responsive css*/
