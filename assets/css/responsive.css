@@ -444,7 +444,9 @@ padding-left:0;
     text-align: center;
     margin-top: 2%;
 }
-
+.footer__registerheader, .footer__quicklinksheader, .footer__shareheader, .footer__contactheader, .footer__followheader {
+    font-size: 0.65rem;
+}
 
 
 }
