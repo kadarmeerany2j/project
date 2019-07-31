@@ -178,7 +178,7 @@ padding-left: 23%;
 }
 /*Footer ends*/
 /*Common styles starts*/
-.developmentheading, .about_heading, .sections2_heading, .section_content h2, .services_heading, .permanent_heading, .contract_heading, .bulk_heading, .process__heading, .whyus__heading, .whyheading, .jobheading, .contact__heading{
+.developmentheading, .about_heading, .sections2_heading, .section_content h2, .services__heading, .permanent__heading, .contract__heading, .bulk__heading, .process__heading, .whyus__heading, .whyheading, .jobheading, .contact__heading{
 	font-weight: 400;
     line-height: 2rem;
     letter-spacing: 0.15rem;
@@ -189,7 +189,7 @@ padding-left: 23%;
     text-transform: uppercase;
     font-size: 0.75rem;
 }
-.contain1, .section_content h1, .section_content1 h1, .about_contain1, .section_content h1, .services_details, .permanent_content1, .contract_content1, .bulk_content1, .process__contain, .whyus__details{
+.contain1, .section_content h1, .section_content1 h1, .about_contain1, .section_content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details{
 	font-size: 2.8rem;
 	color: #626262;
 	font-family: 'Bellefair', serif;
@@ -197,7 +197,7 @@ padding-left: 23%;
 	letter-spacing: -2px;
 	line-height: 3rem;
 }
-.contain2, .section_content p, .problems li, .about_contain2, .section_content p, .permanent_content2, .contract_content2, .bulk_content2, .whyus__contain{
+.contain2, .section_content p, .problems li, .about_contain2, .section_content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain{
 	font-size: 1.2rem;
 	color: #91969c;
 	line-height: 1.75rem;
@@ -676,15 +676,17 @@ img {
 
 /*AboutUS ends*/
 /*Services Starts*/
-.services_heading{
-    padding-top: 8%;
-    margin: 0 auto;
-    margin-bottom: 2%;
+.services{
+padding-top: 80px;
+ margin-bottom: 2%;
 }
-.services_details{
+.services__heading{
+    margin: 0 auto;
+}
+.services__details{
     text-align: center;
         margin-bottom: 5%;
-        width: 74%;
+        width: 85%;
     margin: 0 auto;
     padding-bottom: 4%;
 }
@@ -696,55 +698,55 @@ padding:3%;
 .bulk{
     padding-bottom: 2%;
 }
-.permanent_heading{
+.permanent__heading{
     margin: 0px 0px 15px 0px;
 }
-.permanent_img{
+.permanent__img{
     width: 34%;
     float: left;
 }
-.permanent_desc{
+.permanent__desc{
         width: 66%;
     float: left;
     padding-top: 0;
 }
-.permanent_content1{
+.permanent__content1{
     margin-bottom: 2%;
 }
-.permanentcontain2{
+.permanent__contain2{
 }
 
-.contract_desc{
+.contract__desc{
     width: 66%;
     float: left;
 }
-.contract_heading{
+.contract__heading{
  margin: 0px 0px 15px 0px;
 }
-.contract_img{
+.contract__img{
     width: 34%;
     float: right;
 }
-.contract_content1, .contract_content2 {
+.contract__content1, .contract__content2 {
         margin-bottom: 2%;
 }
 
-.bulk_heading{
+.bulk__heading{
     margin: 0px 0px 15px 0px;
 }
-.bulk_img{
+.bulk__img{
     width: 34%;
     float: left;
 }
-.bulk_desc{
+.bulk__desc{
         width: 66%;
     float: left;
     padding-top: 0;
 }
-.bulk_content1{
+.bulk__content1{
  margin-bottom: 2%;
 }
-.bulk_content2{
+.bulk__content2{
    }
 
 /*Services ends*/
