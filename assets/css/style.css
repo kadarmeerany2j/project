@@ -178,7 +178,7 @@ padding-left: 23%;
 }
 /*Footer ends*/
 /*Common styles starts*/
-.developmentheading, .about_heading, .sections2_heading, .section_content h2, .services_heading, .permanent_heading, .contract_heading, .bulk_heading, .process_heading, .whyusheading, .whyheading, .jobheading, .contact__heading{
+.developmentheading, .about_heading, .sections2_heading, .section_content h2, .services_heading, .permanent_heading, .contract_heading, .bulk_heading, .process__heading, .whyus__heading, .whyheading, .jobheading, .contact__heading{
 	font-weight: 400;
     line-height: 2rem;
     letter-spacing: 0.15rem;
@@ -189,7 +189,7 @@ padding-left: 23%;
     text-transform: uppercase;
     font-size: 0.75rem;
 }
-.contain1, .section_content h1, .section_content1 h1, .about_contain1, .section_content h1, .services_details, .permanent_content1, .contract_content1, .bulk_content1, .process_contain, .whyusdetails{
+.contain1, .section_content h1, .section_content1 h1, .about_contain1, .section_content h1, .services_details, .permanent_content1, .contract_content1, .bulk_content1, .process__contain, .whyus__details{
 	font-size: 2.8rem;
 	color: #626262;
 	font-family: 'Bellefair', serif;
@@ -197,7 +197,7 @@ padding-left: 23%;
 	letter-spacing: -2px;
 	line-height: 3rem;
 }
-.contain2, .section_content p, .problems li, .about_contain2, .section_content p, .permanent_content2, .contract_content2, .bulk_content2, .whycontain{
+.contain2, .section_content p, .problems li, .about_contain2, .section_content p, .permanent_content2, .contract_content2, .bulk_content2, .whyus__contain{
 	font-size: 1.2rem;
 	color: #91969c;
 	line-height: 1.75rem;
@@ -753,32 +753,33 @@ padding:3%;
 .processmain{
  /*   background-color:#edf4fa;*/
 }
-.process_heading{
-     padding-top: 8%;
+.process__heading{
+     padding-top:80px;
     margin-bottom: 2%;
 }
-.process_contain{
+.process__contain{
     padding-bottom: 5%;
     width: 75%;
    text-align: center;
        margin: 0 auto;
 }
-.process_contain1{
+.process__contain1{
 
       text-align: center;
     padding-bottom: 5%;
 }
-.process_img{
+.process__img{
      width: 70%;
 }
 /*Process ends*/
 /*Whyus Starts*/
-
-.whyusheading{
-    padding-top: 8%;
-    margin-bottom: 2%;
+.whyus{
+        padding-top: 80px;
+         margin-bottom: 2%;
 }
-.whyusdetails{
+
+.whyus__details{
+    padding-top: 2%;
     text-align: center;
     width: 75%;
      padding-bottom: 5%;
@@ -802,11 +803,11 @@ padding:3%;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
-.whycontain{
+.whyus__contain{
     text-align: center;
     margin-bottom: 5%;
 }
-.whyusimg{
+.whyus__img{
 	    float: left;
     height: 496px;
     width: 30%
@@ -815,6 +816,7 @@ padding:3%;
 	float: left;
 	width: 28%;
 	margin-right: 5%;
+    padding-bottom: 3%;
 }
 
 /*Whyus ends*/

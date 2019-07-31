@@ -21,6 +21,9 @@
 .carrerbanner {
     padding-top: 80px;
 }
+.whyus__heading{
+    padding-top: 0px;
+}
 }
 
 @media (max-width: 992px) {
@@ -34,11 +37,11 @@
     height: 300px;
     background-size: contain;
 }
-.contain1, .section_content h1, .section_content1 h1, .about_contain1, .section_content h1, .services_details, .permanent_content1, .contract_content1, .bulk_content1, .process_contain, .whyusdetails {
+.contain1, .section_content h1, .section_content1 h1, .about_contain1, .section_content h1, .services_details, .permanent_content1, .contract_content1, .bulk_content1, .process__contain, .whyus__details {
     font-size: 2.5rem;
     line-height: 2.5rem;
 }
-.contain2, .section_content p, .problems li, .about_contain2, .section_content p, .permanent_content2, .contract_content2, .bulk_content2, .whycontain {
+.contain2, .section_content p, .problems li, .about_contain2, .section_content p, .permanent_content2, .contract_content2, .bulk_content2, .whyus__contain {
     font-size: 1rem;
     line-height: 1.5rem;
 }
@@ -84,11 +87,11 @@ margin: 10px
     height: 235px;
     background-size: contain;
 }
-.contain1, .section_content h1, .section_content1 h1, .about_contain1, .section_content h1, .services_details, .permanent_content1, .contract_content1, .bulk_content1, .process_contain, .whyusdetails {
+.contain1, .section_content h1, .section_content1 h1, .about_contain1, .section_content h1, .services_details, .permanent_content1, .contract_content1, .bulk_content1, .process__contain, .whyus__details {
     font-size: 2.1rem;
     line-height: 2.3rem;
 }
-.contain2, .section_content p, .problems li, .about_contain2, .section_content p, .permanent_content2, .contract_content2, .bulk_content2, .whycontain {
+.contain2, .section_content p, .problems li, .about_contain2, .section_content p, .permanent_content2, .contract_content2, .bulk_content2, .whyus__contain {
     font-size: 1rem;
     line-height: 1.5rem;
 }
@@ -331,14 +334,10 @@ margin: 10px
     width: 100%;
 }
 /*process responsive css*/
-.process_heading {
-    padding-top: 17%;
-    }
+
 
 /*whyus responsive css*/
-.whyusheading {
-    padding-top: 17%;
-}
+
 .differnetmain, .problemmain{
     float: none;
     display: block;
@@ -349,7 +348,7 @@ margin: 10px
 .differnet, .usp, .problem, .solution{
     height: unset;
 }
-.whyusimg{
+.whyus__img{
         display: block;
     width: 85%;
     margin: 0 auto;
@@ -390,11 +389,12 @@ margin: 10px
     width: 95%;
 }
 
-.services_details, .process_contain, .whyusdetails {
+.services_details, .process__contain, .whyus__details {
     width: 85%
 } 
-.process_img {
+.process__img {
     width: 90%;
+    height: 400px;
 }
 .section_content h1 {
     margin: 1rem 0 1.5rem 0px;
