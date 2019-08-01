@@ -322,8 +322,8 @@ body{
     border-bottom: 1px solid #f37a75;
     text-transform: uppercase;
     font-size: 0.75rem;
-    text-align: center;
-    margin-left: 7.5%;
+       margin: 0 auto;
+       margin-bottom: 2%;
 }
 .about__heading, .weare__content h2, .permanent__heading, .contract__heading, .bulk__heading{
     display: none;
