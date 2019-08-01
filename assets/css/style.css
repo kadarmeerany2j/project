@@ -189,7 +189,7 @@ padding-left: 23%;
     text-transform: uppercase;
     font-size: 0.75rem;
 }
-.contain1, .section_content h1, .section_content1 h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details{
+.section3__contain1, .section4__content h1, .section_content1 h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details{
 	font-size: 2.8rem;
 	color: #626262;
 	font-family: 'Bellefair', serif;
@@ -197,7 +197,7 @@ padding-left: 23%;
 	letter-spacing: -2px;
 	line-height: 3rem;
 }
-.contain2, .section_content p, .problems li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain{
+.section3__contain2, .section4__content p, .problems li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain{
 	font-size: 1.2rem;
 	color: #91969c;
 	line-height: 1.75rem;
@@ -242,23 +242,23 @@ text-align: center;
 
 }
 
-.section3_contain{
+.section3__contain{
 width: 45%;
     margin-bottom: 5%;
     float: left;
     padding-left: 3%;
 }
-.contain1{
+.section3__contain1{
 margin-bottom: 2%;
 width: 77%;
 float: left;
 }
-.contain2{
+.section3__contain2{
 width: 79%;
 margin-bottom: 5%;
 float: left;
 }
-.talentbutton{
+.section3__talentbutton{
 border: none;
 text-align: center;
 cursor: pointer;
@@ -272,56 +272,49 @@ padding:8px 32px;
 text-transform: uppercase;
 font-weight: bold;
 }
-.talentbutton:hover{
+.section3__talentbutton:hover{
 background-color: #15a99c;
 }
-.containimg{
-    float: left;  
+.section3__img{
+    float: right;  
     width: 45%;
     padding: 0px 30px 30px 30px;
 }
 /*section 4*/
-.challenge {
+.section4 {
 background: #c1eeff;
-padding: 3rem 2rem 0;
 overflow: hidden;
-}
-.container {
 width: 100%;
 height: auto;
 }
-.challenge {
-padding: 0 0rem 0 0rem;
-margin: 0;
-}
-.section_content {
+.section4__content {
 width: 60%;
 height: auto;
 float: left;
 margin: 2rem 0 0 0;
 padding: 0 0rem 0 0rem;
 }
-.section_content h1 {
+.section4__content h1 {
 margin: 1rem 0 1.5rem 0;
 }
 .hidden {
 Opacity: 1;
 }
-.section_content p {
+.section4__content p {
 margin: 0;
 padding: 10px 0px;
 }
-.challenge .section_image {
+.challenge .section4__image {
 height: auto;
 float: right;
 padding-top: 40px;
 margin: 0;
 }
-.section_image {
+.section4__image {
 width: 40%;
 height: auto;
-float: left;
-margin: 5rem 0 0 0;
+float: right;
+margin: 6rem 0 0 0;
 }
 .weare_image{
 width: 40%;
@@ -339,16 +332,15 @@ margin: 0;
 .challenge .section_image img {
 margin: 0 0 0 0;
 }
-img[class*="wp-image-"] {
-display: block;
-margin-bottom: 1em;
-margin-bottom: 1rem;
-}
-.alignnone {
-float: none;
-}
 img {
 max-width: 100%;
+}
+.section4__content h1 {
+    margin: 1rem 0 1.5rem 0;
+}
+.section4__content p {
+    margin: 0;
+    padding: 10px 0px;
 }
 
 /*section 5*/

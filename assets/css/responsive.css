@@ -5,10 +5,10 @@
 .banner{
     margin-top: 70px;
 }
-.contain1{
+.section3__contain1{
     width: 85%;
 }
-.contain2{
+.section3__contain2{
     width: 89%;
 }
 .about__contain1 {
@@ -37,11 +37,11 @@
     height: 300px;
     background-size: contain;
 }
-.contain1, .section_content h1, .section_content1 h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details {
+.section3__contain1, .section_content h1, .section_content1 h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details {
     font-size: 2.5rem;
     line-height: 2.5rem;
 }
-.contain2, .section_content p, .problems li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain {
+.section3__contain2, .section_content p, .problems li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain {
     font-size: 1rem;
     line-height: 1.5rem;
 }
@@ -87,15 +87,15 @@ margin: 10px
     height: 235px;
     background-size: contain;
 }
-.contain1, .section_content h1, .section_content1 h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details {
+.section3__contain1, .section4__content h1, .section_content1 h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details {
     font-size: 2.1rem;
     line-height: 2.3rem;
 }
-.contain2, .section_content p, .problems li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain {
+.section3__contain2, .section4__content p, .problems li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain {
     font-size: 1rem;
     line-height: 1.5rem;
 }
-.containimg {
+.section3__img {
     padding: 0px 20px 20px 20px;
 }
 .class1, .class2, .class3, .class4, .class5, .class6, .class7, .class8, .class9, .class10, .class11, .class12, .class13, .class14{
@@ -193,14 +193,14 @@ margin: 10px
 .banner__img {
     height: 110px;
 }
-.containimg{
+.section3__img{
     width: 85%;
     margin: 0 auto;
     padding: 1rem 0rem;
     display: block;
     float: none;
 }
-.section3_contain{
+.section3__contain{
         display: block;
     float: none;
     width: 85%;
@@ -208,7 +208,7 @@ margin: 10px
     padding:0;
     padding-bottom: 3%;
 }
-.section_content{
+.section4__content{
   width: 85%;
     margin: 0 auto;
     float: none;
@@ -216,7 +216,7 @@ margin: 10px
     display: block;
     padding-bottom: 3%;
 }
-.challenge .section_image {
+.section4__image {
     height: auto;
     float: none;
     margin: 0 auto;
@@ -224,10 +224,7 @@ margin: 10px
     padding: 0;
 }
 
-.alignnone{
-    width: 95%;
-    margin: 0 auto;
-}
+
 .section_image1{
         width: 85%;
     margin: 0 auto;
@@ -395,7 +392,7 @@ margin: 10px
     padding: 0;
     padding-bottom: 2%;
 }
-.contain1, .contain2, .problems li{
+.section3__contain1, .section3__contain2, .problems li{
     width: 95%;
 }
 
