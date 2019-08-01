@@ -243,8 +243,12 @@ a {
     width: 85%;
     padding: 0;
 }
-
-
+.section4__content h1 {
+    margin: 1rem 0 0rem 0;
+}
+.section5 {
+    padding: 1rem 0rem;
+}
 .section5__image{
         width: 85%;
     margin: 0 auto;
@@ -261,6 +265,13 @@ a {
 .section5 li {
     padding: 1rem 0rem 0 1rem;
     }
+    .section5__content h1 {
+    margin: 1rem 0 0rem 0;
+}
+.p8 {
+    margin-bottom: 5%;
+    padding-top: 10px;
+}
 .developmentheading{
     text-align: center;
         letter-spacing: 0.10rem;
