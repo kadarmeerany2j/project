@@ -388,7 +388,7 @@ body{
     float: none;
 }
 .permanent, .contract, .bulk{
-    padding:0;
+    padding-bottom: 3%;
 }
 .bulk{
     padding-bottom: 5%;
@@ -413,7 +413,7 @@ body{
 }
 .whyus__img{
         display: block;
-    width: 60%;
+    width: 85%;
     margin: 0 auto;
     padding: 0;
     float: none;
