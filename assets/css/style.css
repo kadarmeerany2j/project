@@ -222,7 +222,7 @@ letter-spacing: -2px;
 text-align: center;
 margin-top: 5%;
 }
-.banner_common_section  {
+.banner__para  {
 font-size: 1.2rem;
 padding: 0;
 color: #565656;
@@ -231,7 +231,7 @@ margin: 0;
 text-align: center;
 font-family: "Open Sans", sans-serif;
 }
-.banner_img{
+.banner__img{
 background: url('../images/banner.svg') no-repeat;
 height: 339px;
 background-position: center;
