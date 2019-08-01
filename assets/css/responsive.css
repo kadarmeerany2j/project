@@ -286,6 +286,9 @@ body{
 .resCarousel-inner {
  width: 55%;
 }   
+.p8:hover{
+    display: block;
+}
 .item{
     width: 27%;
 }

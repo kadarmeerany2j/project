@@ -17,6 +17,8 @@ font-family:"Open Sans", sans-serif;
 font-family:OpenSans-Light;
 src: url(../fonts/OpenSans-Light.ttf);
 }
+
+
 /*Header starts*/
 .header {
 	overflow: auto;
@@ -933,7 +935,8 @@ padding-top: 5%;
     color: #626262;;
     padding-top: 4%;
     font-size: 1.2rem;
-        font-family: "Open Sans", sans-serif;
+     font-family: 'Open Sans', sans-serif;
+         font-weight: 200;
 }
 .contact__button{
     border: none;
