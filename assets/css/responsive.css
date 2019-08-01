@@ -33,7 +33,7 @@
 .banner {
     margin-top: 69px;
 }
-.banner_img{
+.banner__img{
     height: 300px;
     background-size: contain;
 }
@@ -83,7 +83,7 @@ margin: 10px
 .banner {
     margin-top: 55px;
 }
-.banner_img {
+.banner__img {
     height: 235px;
     background-size: contain;
 }
