@@ -167,7 +167,7 @@ padding-left: 23%;
     opacity:5;
 }
 .twitter-logo, .linkedin{
-    margin-left: 5px;
+    margin-left: 0px;
 }
 .facebook:hover, .twitter-logo:hover, .linkedin:hover, .instagram:hover{
     opacity: 0.4;
