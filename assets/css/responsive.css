@@ -149,6 +149,19 @@ margin: 10px
 }
 
 @media screen and (max-width: 576px) and (min-width: 321px){
+
+/*.section3__contain1, .section_content h1, .section5__content h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details {
+    font-size: 16px;
+    line-height: 2.5rem;
+}
+.section3__contain2, .section_content p, .section5 li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain {
+    font-size: 12px;
+    line-height: 1.5rem;
+}*/
+.section3__contain1, .section4__content h1, .section5__content h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+}
     .header{
         padding: 10px 0px;
         text-align: center;
