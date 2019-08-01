@@ -37,11 +37,11 @@
     height: 300px;
     background-size: contain;
 }
-.section3__contain1, .section_content h1, .section_content1 h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details {
+.section3__contain1, .section_content h1, .section5__content h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details {
     font-size: 2.5rem;
     line-height: 2.5rem;
 }
-.section3__contain2, .section_content p, .problems li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain {
+.section3__contain2, .section_content p, .section5 li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain {
     font-size: 1rem;
     line-height: 1.5rem;
 }
@@ -87,11 +87,11 @@ margin: 10px
     height: 235px;
     background-size: contain;
 }
-.section3__contain1, .section4__content h1, .section_content1 h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details {
+.section3__contain1, .section4__content h1, .section5__content h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details {
     font-size: 2.1rem;
     line-height: 2.3rem;
 }
-.section3__contain2, .section4__content p, .problems li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain {
+.section3__contain2, .section4__content p, .section5 li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain {
     font-size: 1rem;
     line-height: 1.5rem;
 }
@@ -225,25 +225,26 @@ margin: 10px
 }
 
 
-.section_image1{
+.section5__image{
         width: 85%;
     margin: 0 auto;
     float: none;
     display: block;
 }
-.section_content1{
+.section5__content{
         width: 85%;
     margin: 0 auto;
     float: none;
     padding: 0;
     display: block;
 }
-.problems li {
+.section5 li {
     padding: 1rem 0rem 0 1rem;
     }
 .developmentheading{
     text-align: center;
         letter-spacing: 0.10rem;
+        font-size: 10px;
 }
 .resCarousel-inner {
  width: 55%;
