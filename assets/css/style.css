@@ -189,7 +189,7 @@ padding-left: 23%;
     text-transform: uppercase;
     font-size: 0.75rem;
 }
-.section3__contain1, .section4__content h1, .section_content1 h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details{
+.section3__contain1, .section4__content h1, .section5__content h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details{
 	font-size: 2.8rem;
 	color: #626262;
 	font-family: 'Bellefair', serif;
@@ -197,7 +197,7 @@ padding-left: 23%;
 	letter-spacing: -2px;
 	line-height: 3rem;
 }
-.section3__contain2, .section4__content p, .problems li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain{
+.section3__contain2, .section4__content p, .section5 li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain{
 	font-size: 1.2rem;
 	color: #91969c;
 	line-height: 1.75rem;
@@ -288,11 +288,11 @@ width: 100%;
 height: auto;
 }
 .section4__content {
-width: 60%;
+width: 54%;
 height: auto;
 float: left;
 margin: 2rem 0 0 0;
-padding: 0 0rem 0 0rem;
+padding: 0 0rem 0 3rem;
 }
 .section4__content h1 {
 margin: 1rem 0 1.5rem 0;
@@ -314,7 +314,7 @@ margin: 0;
 width: 40%;
 height: auto;
 float: right;
-margin: 6rem 0 0 0;
+margin: 2rem 0 0 0;
 }
 .weare_image{
 width: 40%;
@@ -344,31 +344,28 @@ max-width: 100%;
 }
 
 /*section 5*/
-.problems {
+.section5 {
 overflow: auto;
-}
-.container1 {
 padding: 3rem 0rem;
-}
-.container1 {
 width: 100%;
 height: auto;
 }
 
-.section_image1 {
+
+.section5__image {
 width: 40%;
 height: auto;
 float: left;
 margin: 5rem 0 0 0;
 }
-.section_content1 {
+.section5__content {
 width: 60%;
 height: auto;
 float: left;
 margin: 2rem 0 0 0;
 padding: 0 0rem 0 0rem;
 }
-.section_content1 h2 {
+.section5__content1 h2 {
 font-size: 0.75rem;
 font-weight: 400;
 color: #f37a75;
@@ -381,18 +378,20 @@ display: table;
 .hidden_part {
 visibility: hidden;
 }
-.section_content1 h1 {
+.section5__content h1 {
 margin: 1rem 0 1.5rem 0;
 }
-.problems li::before {
+.section5 li::before {
 content: "• ";
 color: #ffbb00;
 }
-.problems li {
+.section5 li {
 padding: 1rem 5rem 0 1rem;
 text-indent: -0.8rem;
 }
-
+.section5__content1 h1 {
+    margin: 1rem 0 1.5rem 0;
+}
 
 /*development skillsets starts here*/
 /*resCarousel Css*/
