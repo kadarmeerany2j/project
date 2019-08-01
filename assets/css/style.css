@@ -596,7 +596,9 @@ transition: .6s ease all;
 
 /*Home ends*/
 /*AboutUS Starts*/
-
+.about__heading1 {
+    display: none;
+}
 .about__heading{
     margin:0px 0px 10px 0px;
 }

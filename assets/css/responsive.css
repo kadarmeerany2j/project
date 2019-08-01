@@ -313,6 +313,21 @@ body{
     font-size: 10px;
 }
 /*about responsive css*/
+.about__heading1 {
+    display: table;
+        font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.15rem;
+    color: #f37a75;
+    border-bottom: 1px solid #f37a75;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-left: 7.5%;
+}
+.about__heading, .weare__content h2, .permanent__heading, .contract__heading, .bulk__heading{
+    display: none;
+}
 .about{
    padding-top: 100px;  
    padding-bottom: 3%;
@@ -360,7 +375,7 @@ body{
 /*services responsive css*/
 
 .permanent__img, .contract__img, .bulk__img{
-        width: 70%;
+        width: 60%;
     margin: 0 auto;
     float: none;
     padding: 0;
@@ -398,7 +413,7 @@ body{
 }
 .whyus__img{
         display: block;
-    width: 85%;
+    width: 60%;
     margin: 0 auto;
     padding: 0;
     float: none;
@@ -442,7 +457,7 @@ body{
 } 
 .process__img {
     width: 90%;
-    height: 300px;
+    height: 250px;
 }
 .weare__content h1 {
     margin: 1rem 0 1.5rem 0px;
