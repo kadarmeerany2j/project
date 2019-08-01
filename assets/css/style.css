@@ -178,7 +178,7 @@ padding-left: 23%;
 }
 /*Footer ends*/
 /*Common styles starts*/
-.developmentheading, .about_heading, .sections2_heading, .section_content h2, .services__heading, .permanent__heading, .contract__heading, .bulk__heading, .process__heading, .whyus__heading, .whyheading, .jobheading, .contact__heading{
+.developmentheading, .about__heading, .sections2_heading, .section_content h2, .weare__content h2, .services__heading, .permanent__heading, .contract__heading, .bulk__heading, .process__heading, .whyus__heading, .whyheading, .jobheading, .contact__heading{
 	font-weight: 400;
     line-height: 2rem;
     letter-spacing: 0.15rem;
@@ -189,7 +189,7 @@ padding-left: 23%;
     text-transform: uppercase;
     font-size: 0.75rem;
 }
-.contain1, .section_content h1, .section_content1 h1, .about_contain1, .section_content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details{
+.contain1, .section_content h1, .section_content1 h1, .about__contain1, .weare__content h1, .services__details, .permanent__content1, .contract__content1, .bulk__content1, .process__contain, .whyus__details{
 	font-size: 2.8rem;
 	color: #626262;
 	font-family: 'Bellefair', serif;
@@ -197,7 +197,7 @@ padding-left: 23%;
 	letter-spacing: -2px;
 	line-height: 3rem;
 }
-.contain2, .section_content p, .problems li, .about_contain2, .section_content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain{
+.contain2, .section_content p, .problems li, .about__contain2, .weare__content p, .permanent__content2, .contract__content2, .bulk__content2, .whyus__contain{
 	font-size: 1.2rem;
 	color: #91969c;
 	line-height: 1.75rem;
@@ -323,6 +323,12 @@ height: auto;
 float: left;
 margin: 5rem 0 0 0;
 }
+.weare_image{
+width: 40%;
+height: auto;
+float: left;
+margin: 5rem 0 0 0;
+}
 .common_section {
 font-size: 1.2rem;
 padding: 0;
@@ -356,9 +362,7 @@ padding: 3rem 0rem;
 width: 100%;
 height: auto;
 }
-.hidden {
-Opacity: 1;
-}
+
 .section_image1 {
 width: 40%;
 height: auto;
@@ -600,65 +604,66 @@ transition: .6s ease all;
 /*Home ends*/
 /*AboutUS Starts*/
 
-.about_heading{
+.about__heading{
     margin:0px 0px 10px 0px;
 }
 .about{
    padding-top: 100px;  
+   padding-bottom: 3%;
 }
-.about_img{
+.about__img{
 	width: 33%;
 	float: left;
 	padding-left: 3%;
     margin-bottom: 5%;
 }
-.about_contain1{
+.about__contain1{
     width: 86%;
     padding-bottom: 3%;
 }
-.about_contain2{
+.about__contain2{
     width: 77%;
 }
-.about_description{
+.about__description{
         float: left;
     width: 60%;
     padding-left: 30px;
     }
-
-
-.sections2{
-    clear:both;
+.weare__content {
+width: 60%;
+height: auto;
+float: left;
+margin: 2rem 0 0 0;
+padding: 0 0rem 0 0rem;
 }
-
-
-.hidden {
-    Opacity: 1;
-}
-.section_content h1 {
+.weare__content h1 {
     margin: 1rem 0 1.5rem 30px;
 
 }
-.section_content p {
+.weare__content p {
     margin: 0;
     padding: 10px 30px;
 }
-.section_image {
+.weare__image{
     width: 40%;
     height: auto;
     float: right;
     padding: 1rem 0 0 0;
 }
 
-.sections2_weare{
+.weare{
     overflow: auto;
       height: auto;
     padding-bottom: 3%;
-    width: 95%;
-    padding: 0rem 2rem 2rem 2rem;
+    clear:both;
 }
-.section_content h2{
+.weare__content h2{
     margin-left: 30px;
 
+}
+.weare__spanclass {
+    font-size: 1.25rem;
+      font-weight: bold;
 }
 img {
     max-width: 100%;
@@ -668,10 +673,7 @@ img {
     vertical-align: middle;
 }
 
-.best_market {
-    font-size: 1.25rem;
-      font-weight: bold;
-}
+
 
 
 /*AboutUS ends*/
