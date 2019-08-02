@@ -17,7 +17,14 @@ font-family:"Open Sans", sans-serif;
 font-family:OpenSans-Light;
 src: url(../fonts/OpenSans-Light.ttf);
 }
-
+@font-face{
+font-family:Bellefair-Regular;
+src: url(../fonts/Bellefair-Regular.ttf);
+}
+@font-face{
+font-family:OpenSans-Regular;
+src: url(../fonts/OpenSans-Regular.ttf);
+}
 
 /*Header starts*/
 .header {

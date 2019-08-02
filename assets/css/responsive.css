@@ -542,7 +542,7 @@ padding-left:0;
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #32d6a9;;
+  background: /*#32d6a9;*/ #565656;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -564,13 +564,13 @@ padding-left:0;
 {
     opacity: 1;
     transform: rotate(-45deg) translate(-1px, -1px);
-    background: red;
+    background: #e30000;
 }
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
    opacity: 1;
     transform: rotate(45deg) translate(1px, -1px);
-    background: red;
+    background:#e30000;
 }
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
