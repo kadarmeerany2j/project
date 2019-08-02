@@ -990,5 +990,6 @@ margin-bottom: 5%;
     padding: 10px;
 }
 /*Contactus ends*/
-
-
+.purechat-display-block .purechat-collapsed-image {
+    outline: none!important;
+}
