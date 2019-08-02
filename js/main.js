@@ -1,11 +1,15 @@
 // index hamberger function
-$(document).ready(function(){
-    $('.Header__menu').click(function(){
-        $('.header__navbarli').toggle();
+// $(document).ready(function(){
+//     $('.Header__menu').click(function(){
+//         $('.header__navbarli').toggle();
+//     });
+// });
+
+  $(document).ready(function(){
+    $('#menuToggle').click(function(){
+        $('#header_navbarli').toggle();
     });
 });
-
-
 
 
 //form validation

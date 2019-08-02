@@ -83,7 +83,9 @@ src: url(../fonts/OpenSans-Light.ttf);
 .header .current a{
    color: #15a99c;  
 }
-
+#menuToggle{
+    display: none;
+}
  
 /*Header ends*/
 /*Footer starts*/
